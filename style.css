@@ -1,0 +1,31 @@
+body{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+}
+button{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100px;
+    border: 5px solid black;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.561);
+    cursor: pointer;
+}
+b{
+    font-size: 32px;
+    color: white;
+}
+span{
+    color: goldenrod;
+}
